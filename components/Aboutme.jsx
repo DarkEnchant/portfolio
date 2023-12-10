@@ -57,8 +57,7 @@ const AboutMe = () => {
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">Hello! I'm currently pursuing a degree in Cybersecurity at Asia Pacific University (APU), where I'm honing my skills to become a proficient cybersecurity expert. My academic journey in this dynamic field has not only deepened my understanding 
-                    of digital security but also fueled my passion for protecting digital infrastructures and data. </p>
+                    <p className="text-base text-justify lg:text-lg">Hello! I'm currently pursuing a degree in Cybersecurity at Asia Pacific University (APU), where I'm honing my skills to become a proficient cybersecurity expert. My academic journey in this dynamic field has not only deepened my understanding of digital security but also fueled my passion for protecting digital infrastructures and data. </p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
                         <TabButton 
