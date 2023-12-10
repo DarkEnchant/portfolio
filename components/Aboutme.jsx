@@ -9,14 +9,12 @@ const TAB_DATA = [
         id: "skills",
         content: (
           <ul className="list-disc pl-2">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>JavaScript</li>
-                <li>Solidity</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Tailwind CSS</li>
+                <li>Java Programming</li>
                 <li>Python</li>
+                <li>C/C++ Programming</li>
+                <li>R studio</li>
+                <li>Adobe Premiere Pro</li>
+                <li>Adobe After Effect</li>
           </ul>
         ),
     },
@@ -25,17 +23,7 @@ const TAB_DATA = [
         id: "experiences",
         content: (
           <ul className="list-disc pl-2">
-            <li>ETH Singapore</li>
-            <li>ETH KL</li>
-            <li>ETH Online</li>
-            <li>ETHGlobal Superhack</li>
-            <li>Solana Hyperdrive</li>
-            <li>APUBCC Sparkathon</li>
-            <li>Encode Club</li>
-            <li>Google CTF</li>
-            <li>NUS Grey CTF</li>
-            <li>Tune Protect Hackathon</li>
-            <li>geNFesT Ideathon</li>
+            <li>Part time for CTS</li>
           </ul>
         ),
     },
@@ -79,12 +67,7 @@ const AboutMe = () => {
                         active= {tab === "skills"}
                         >
                             
-                            JavaScript
-                            Java Programming
-                            C Programming
-                            C++
-                            Python
-                            R studio
+                            Skills
                         </TabButton>
 
                         <TabButton 
